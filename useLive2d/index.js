@@ -5,7 +5,7 @@
         // 创建人物所占空间元素节点 
         let domNode = `<div class="waifu" >
             <div class="waifu-tips"></div>
-            <canvas id="live2d" class="live2d" width="300px" height="300px"></canvas>
+            <canvas id="live2d" class="live2d" width="200px" height="200px"></canvas>
         </div>`;
         $('body').prepend(domNode);
         document.querySelector('#live2d').cssText = canvasStyle;
